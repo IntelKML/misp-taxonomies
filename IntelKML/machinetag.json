@@ -1,0 +1,1378 @@
+{
+   "namespace":"IntelKML",
+   "description":"Intelligence Tags to operate in the IntelKML ecosystem",
+   "version":1,
+   "predicates":[
+      {
+         "value":"Threat",
+         "expanded":"Types of Threats"
+      },
+      {
+         "value":"Vulnerabilities",
+         "expanded":"Types of Vulnerabilities"
+      },
+      {
+         "value":"Infrastructure",
+         "expanded":"Types of Infrastructure"
+      },
+      {
+         "value":"Adversary TTPs",
+         "expanded":"Adversary Tactics Techniques and Proceedures"
+      },
+      {
+         "value":"Critical Supply Chains",
+         "expanded":"Types of Critical Supply Chains"
+      },
+      {
+         "value":"Impacted Industry or Region",
+         "expanded":"Types of Industries and Regions Impacted"
+      }
+   ],
+   "values":[
+      {
+         "predicate":"Threat",
+         "entry":[
+            {
+               "value":"1.1",
+               "expanded":"GIR 1.1 Health and Safety Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.1.1",
+               "expanded":"GIR 1.1.1 Intentional Health and Safety Risks",
+               "description":"..."
+            },
+            {
+               "value":"1.1.2",
+               "expanded":"GIR 1.1.2 Accidental Health and Safety Risks",
+               "description":"..."
+            },
+            {
+               "value":"1.1.3",
+               "expanded":"GIR 1.1.3 Natural Disaster Health and Safety Risks",
+               "description":""
+            },
+            {
+               "value":"1.2",
+               "expanded":"GIR 1.2 Social Engineering in Real Life",
+               "description":"..."
+            },
+            {
+               "value":"1.2.1",
+               "expanded":"GIR 1.2.1 Manipulative Tactics used in person to deceptive individuals into divulging sensitive information",
+               "description":"..."
+            },
+            {
+               "value":"1.2.2",
+               "expanded":"GIR 1.2.2 Manipulative Tactics used in person to decieve individuals into performing harmful actions",
+               "description":"..."
+            },
+            {
+               "value":"1.3",
+               "expanded":"GIR 1.3 Psychological Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.3.1",
+               "expanded":"GIR 1.3.1 Emotional or Psychological Manipulation",
+               "description":"..."
+            },
+            {
+               "value":"1.3.2",
+               "expanded":"GIR 1.3.2 Coercion",
+               "description":"..."
+            },
+            {
+               "value":"1.3.3",
+               "expanded":"GIR 1.3.3 Harassment that can impact mental well-being",
+               "description":"..."
+            },
+            {
+               "value":"1.4",
+               "expanded":"GIR 1.4 Political and Ideological Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.4.1",
+               "expanded":"GIR 1.4.1 Threats related to political instability",
+               "description":"..."
+            },
+            {
+               "value":"1.4.2",
+               "expanded":"GIR 1.4.2 Threats related to extremism",
+               "description":""
+            },
+            {
+               "value":"1.4.3",
+               "expanded":"GIR 1.4.3 Threats related to Ideological conflict",
+               "description":"..."
+            },
+            {
+               "value":"1.5",
+               "expanded":"GIR 1.5 Environmental Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.5.1",
+               "expanded":"GIR 1.5.1 Enviornmental Threats linked to pollution",
+               "description":"..."
+            },
+            {
+               "value":"1.5.2",
+               "expanded":"GIR 1.5.2 Enviornmental Threats linked to Climate Change",
+               "description":"..."
+            },
+            {
+               "value":"1.5.3",
+               "expanded":"GIR 1.5.3 Enviornmental Threats linked to Ecological Disasters",
+               "description":"..."
+            },
+            {
+               "value":"1.6",
+               "expanded":"GIR 1.6 Legal Risks",
+               "description":"..."
+            },
+            {
+               "value":"1.6.1",
+               "expanded":"GIR 1.6.1 Risks related to Lawsuits",
+               "description":"..."
+            },
+            {
+               "value":"1.6.2",
+               "expanded":"GIR 1.6.2 Risks related to Legal Disputes",
+               "description":"..."
+            },
+            {
+               "value":"1.6.3",
+               "expanded":"GIR 1.6.3 Risks related to Criminal Charges",
+               "description":""
+            },
+            {
+               "value":"1.7",
+               "expanded":"GIR 1.7 Identity Theft",
+               "description":"..."
+            },
+            {
+               "value":"1.7.1",
+               "expanded":"GIR 1.7.1  Financial Impact of Identity Theft",
+               "description":"..."
+            },
+            {
+               "value":"1.7.2",
+               "expanded":"GIR 1.7.2 Reputational Impact",
+               "description":"..."
+            },
+            {
+               "value":"1.8",
+               "expanded":"1.8 Reputation Damage",
+               "description":"..."
+            },
+            {
+               "value":"1.8.1",
+               "expanded":"GIR 1.8.1 Activities that can harm an individual's reputation or personal brand",
+               "description":"..."
+            },
+            {
+               "value":"1.9",
+               "expanded":"GIR 1.9 Employment and Career Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.9.1",
+               "expanded":"GIR 1.9.1 Job Loss",
+               "description":"..."
+            },
+            {
+               "value":"1.9.2",
+               "expanded":"GIR 1.9.2 Workplace Harassment",
+               "description":"..."
+            },
+            {
+               "value":"1.9.3",
+               "expanded":"GIR 1.9.3 Career Stagnation",
+               "description":"..."
+            },
+            {
+               "value":"1.10",
+               "expanded":"GIR 1.10 Educational Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.10.1",
+               "expanded":"GIR 1.10.1 Academic Misconduct",
+               "description":""
+            },
+            {
+               "value":"1.10.2",
+               "expanded":"GIR 1.10.2 Bullying",
+               "description":"..."
+            },
+            {
+               "value":"1.10.3",
+               "expanded":"GIR 1.10.3 Discrimination",
+               "description":"..."
+            },
+            {
+               "value":"1.11",
+               "expanded":"GIR 1.11 Social Media Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.11.1",
+               "expanded":"GIR 1.11.1 Misinformation",
+               "description":"..."
+            },
+            {
+               "value":"1.11.2",
+               "expanded":"GIR 1.11.2 Cyberbullying",
+               "description":"..."
+            },
+            {
+               "value":"1.12",
+               "expanded":"GIR 1.12 Ethical Dilemas",
+               "description":"..."
+            },
+            {
+               "value":"1.13",
+               "expanded":"GIR 1.13 Family and Relationship Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.14",
+               "expanded":"GIR 1.14 Geopolitical Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.14.1",
+               "expanded":"GIR 1.14.1 Threats associated to Global Events",
+               "description":""
+            },
+            {
+               "value":"1.14.2",
+               "expanded":"GIR 1.14.2 Threats associated to International Conflicts",
+               "description":"..."
+            },
+            {
+               "value":"1.14.3",
+               "expanded":"GIR 1.14.3 Threats associated to Geopolitical Tensions",
+               "description":"..."
+            },
+            {
+               "value":"1.15",
+               "expanded":"GIR 1.15 Personal Privacy Invasion",
+               "description":"..."
+            },
+            {
+               "value":"1.15.1",
+               "expanded":"GIR 1.15.1 Intrusion into Private Life",
+               "description":"..."
+            },
+            {
+               "value":"1.15.2",
+               "expanded":"GIR 1.15.2 Surviellance",
+               "description":"..."
+            },
+            {
+               "value":"1.15.3",
+               "expanded":"GIR 1.15.3 Stalking",
+               "description":"..."
+            },
+            {
+               "value":"1.16",
+               "expanded":"GIR 1.16 Crisis and Emergency Situations",
+               "description":"..."
+            },
+            {
+               "value":"1.16.1",
+               "expanded":"GIR 1.16.1 Accidents",
+               "description":"..."
+            },
+            {
+               "value":"1.16.2",
+               "expanded":"GIR 1.16.2 Medical Emergencies",
+               "description":""
+            },
+            {
+               "value":"1.16.3",
+               "expanded":"GIR 1.16.3 Natural Disasters",
+               "description":"..."
+            },
+            {
+               "value":"1.17",
+               "expanded":"GIR 1.17 Addiction and Substance Abuse",
+               "description":"..."
+            },
+            {
+               "value":"1.17.1",
+               "expanded":"GIR 1.17.1 Threats related to dependency on substances or addictive behaviors",
+               "description":"..."
+            },
+            {
+               "value":"1.18",
+               "expanded":"GIR 1.18 Cultural and Social Threats",
+               "description":"..."
+            },
+            {
+               "value":"1.18.1",
+               "expanded":"GIR 1.18.1 Cultural Clashes",
+               "description":"..."
+            },
+            {
+               "value":"1.18.2",
+               "expanded":"GIR 1.18.2 Discrimination",
+               "description":"..."
+            },
+            {
+               "value":"1.18.3",
+               "expanded":"GIR 1.18.3 Social Unrest",
+               "description":"..."
+            }
+         ]
+      },
+      {
+         "predicate":"Vulnerabilities",
+         "entry":[
+            {
+               "value":"2.1",
+               "expanded":"GIR 2.1 - Health Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.1.1",
+               "expanded":"GIR 2.1.1 - Pre-existing medical conditions",
+               "description":"..."
+            },
+            {
+               "value":"2.1.2",
+               "expanded":"GIR 2.1.2 - Lack of access to healthcare",
+               "description":"..."
+            },
+            {
+               "value":"2.1.3",
+               "expanded":"GIR 2.1.3 - Susceptibility to diseases",
+               "description":"..."
+            },
+            {
+               "value":"2.2",
+               "expanded":"GIR 2.2 - Financial Vulnerabilites",
+               "description":"..."
+            },
+            {
+               "value":"2.2.1",
+               "expanded":"GIR 2.2.1 - Economic instability",
+               "description":"..."
+            },
+            {
+               "value":"2.2.2",
+               "expanded":"GIR 2.2.2 - Job loss",
+               "description":"..."
+            },
+            {
+               "value":"2.2.3",
+               "expanded":"GIR 2.2.3 - Insufficient savings",
+               "description":"..."
+            },
+            {
+               "value":"2.2.4",
+               "expanded":"GIR 2.2.4 - Dependence on a single income source",
+               "description":"..."
+            },
+            {
+               "value":"2.3",
+               "expanded":"GIR 2.3 - Supply Chain Disruptions",
+               "description":"..."
+            },
+            {
+               "value":"2.3.1",
+               "expanded":"GIR 2.3.1 - Shortages of essential goods",
+               "description":"..."
+            },
+            {
+               "value":"2.3.2",
+               "expanded":"GIR 2.3.2 - Disruptions in food, water, and medical supplies",
+               "description":"..."
+            },
+            {
+               "value":"2.4",
+               "expanded":"GIR 2.4 - Security Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.4.1",
+               "expanded":"GIR 2.4.1 - Home and personal security risks",
+               "description":"..."
+            },
+            {
+               "value":"2.4.2",
+               "expanded":"GIR 2.4.2 - Vulnerability to crime",
+               "description":"..."
+            },
+            {
+               "value":"2.4.3",
+               "expanded":"GIR 2.4.3 - Inadequate emergency preparedness",
+               "description":"..."
+            },
+            {
+               "value":"2.5",
+               "expanded":"GIR 2.5 - Social Isolation",
+               "description":"..."
+            },
+            {
+               "value":"2.5.1",
+               "expanded":"GIR 2.5.1 - Limited social support",
+               "description":"..."
+            },
+            {
+               "value":"2.5.2",
+               "expanded":"GIR 2.5.2 - Lack of community engagement",
+               "description":"..."
+            },
+            {
+               "value":"2.5.3",
+               "expanded":"GIR 2.5.3 - Potential mental health challenges",
+               "description":"..."
+            },
+            {
+               "value":"2.6",
+               "expanded":"GIR 2.6 - Technological Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.6.1",
+               "expanded":"GIR 2.6.1 - Dependence on technology",
+               "description":"..."
+            },
+            {
+               "value":"2.6.2",
+               "expanded":"GIR 2.6.2 - Cybersecurity risks",
+               "description":"..."
+            },
+            {
+               "value":"2.6.3",
+               "expanded":"GIR 2.6.3 - Potential disruptions in communication networks",
+               "description":"..."
+            },
+            {
+               "value":"2.7",
+               "expanded":"GIR 2.7 - Environmental Hazards",
+               "description":"..."
+            },
+            {
+               "value":"2.7.1",
+               "expanded":"GIR 2.7.1 - Exposure to natural disasters",
+               "description":"..."
+            },
+            {
+               "value":"2.7.2",
+               "expanded":"GIR 2.7.2 - Climate-related risks",
+               "description":"..."
+            },
+            {
+               "value":"2.8",
+               "expanded":"GIR 2.8 - Information Gaps",
+               "description":"..."
+            },
+            {
+               "value":"2.8.1",
+               "expanded":"GIR 2.8.1 - Lack of awareness",
+               "description":"..."
+            },
+            {
+               "value":"2.8.2",
+               "expanded":"GIR 2.8.2 - Insufficient knowledge about potential threats",
+               "description":"..."
+            },
+            {
+               "value":"2.8.3",
+               "expanded":"GIR 2.8.3 - Misinformation",
+               "description":"..."
+            },
+            {
+               "value":"2.9",
+               "expanded":"GIR 2.9 - Education Gaps",
+               "description":"..."
+            },
+            {
+               "value":"2.9.1",
+               "expanded":"GIR 2.9.1 - Limited access to education",
+               "description":"..."
+            },
+            {
+               "value":"2.9.2",
+               "expanded":"GIR 2.9.2 - Lack of skills or training",
+               "description":"..."
+            },
+            {
+               "value":"2.10",
+               "expanded":"GIR 2.10 - Legal Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.10.1",
+               "expanded":"GIR 2.10.1 - Potential exposure to legal challenges",
+               "description":"..."
+            },
+            {
+               "value":"2.10.2",
+               "expanded":"GIR 2.10.2 - Lack of understanding of rights",
+               "description":"..."
+            },
+            {
+               "value":"2.10.3",
+               "expanded":"GIR 2.10.3 - Unresolved legal issues",
+               "description":"..."
+            },
+            {
+               "value":"2.11",
+               "expanded":"GIR 2.11 - Infrastructure Failures",
+               "description":"..."
+            },
+            {
+               "value":"2.11.1",
+               "expanded":"GIR 2.11.1 - Dependence on critical infrastructure",
+               "description":"..."
+            },
+            {
+               "value":"2.12",
+               "expanded":"GIR 2.12 - Psychological Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.12.1",
+               "expanded":"GIR 2.12.1 - Mental health challenges",
+               "description":"..."
+            },
+            {
+               "value":"2.12.2",
+               "expanded":"GIR 2.12.2 - Stress and anxiety",
+               "description":"..."
+            },
+            {
+               "value":"2.12.3",
+               "expanded":"GIR 2.12.3 - Emotional well-being concerns",
+               "description":"..."
+            },
+            {
+               "value":"2.13",
+               "expanded":"GIR 2.13 -  Lack of Resource Diversity",
+               "description":"..."
+            },
+            {
+               "value":"2.13.1",
+               "expanded":"GIR 2.13.1 - Relying on a single income stream",
+               "description":"..."
+            },
+            {
+               "value":"2.13.2",
+               "expanded":"GIR 2.13.2 - Dependence on a single source of food or energy",
+               "description":"..."
+            },
+            {
+               "value":"2.14",
+               "expanded":"GIR 2.14 - Cultural or Social Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.14.1",
+               "expanded":"GIR 2.14.1 - Exposure to discrimination",
+               "description":"..."
+            },
+            {
+               "value":"2.14.2",
+               "expanded":"GIR 2.14.2 - Cultural clashes",
+               "description":"..."
+            },
+            {
+               "value":"2.15",
+               "expanded":"GIR 2.15 - Age and Demographic Vulnerabilities",
+               "description":"..."
+            },
+            {
+               "value":"2.15.1",
+               "expanded":"GIR 2.15.1 - Vulnerabilities associated with specific age groups or demographics",
+               "description":"..."
+            }
+         ]
+      },
+      {
+         "predicate":"Infrastructure",
+         "entry":[
+            {
+               "value":"3.1",
+               "expanded":"GIR 3.1 - Energy Infrastructure",
+               "description":"..."
+            },
+            {
+               "value":"3.1.1",
+               "expanded":"GIR 3.1.1 - Power generation facilities",
+               "description":"..."
+            },
+            {
+               "value":"3.1.2",
+               "expanded":"GIR 3.1.1 - Electricity grids",
+               "description":"..."
+            },
+            {
+               "value":"2.1.3",
+               "expanded":"GIR 3.1.1 - Oil and gas refineries",
+               "description":"..."
+            },
+            {
+               "value":"3.2",
+               "expanded":"GIR 3.2 - Transportation Infrastructure",
+               "description":"..."
+            },
+            {
+               "value":"3.2.1",
+               "expanded":"GIR 3.2.1 - Roads and highways",
+               "description":"..."
+            },
+            {
+               "value":"3.2.2",
+               "expanded":"GIR 3.2.2 - Bridges and tunnels",
+               "description":"..."
+            },
+            {
+               "value":"3.2.3",
+               "expanded":"GIR 3.2.3 - Airports",
+               "description":"..."
+            },
+            {
+               "value":"3.2.4",
+               "expanded":"GIR 3.2.4 - Public transportation systems",
+               "description":"..."
+            },
+            {
+               "value":"3.3",
+               "expanded":"GIR 3.3 - Water and Wastewater Systems",
+               "description":"..."
+            },
+            {
+               "value":"3.3.1",
+               "expanded":"GIR 3.3.1 - Water treatment plants",
+               "description":"..."
+            },
+            {
+               "value":"3.3.2",
+               "expanded":"GIR 3.3.2 - Reservoirs and dams",
+               "description":"..."
+            },
+            {
+               "value":"3.3.3",
+               "expanded":"GIR 3.3.3 - Wastewater treatment facilities",
+               "description":"..."
+            },
+            {
+               "value":"3.4",
+               "expanded":"GIR 3.4 - Communications Infrastructure",
+               "description":"..."
+            },
+            {
+               "value":"3.4.1",
+               "expanded":"GIR 3.4.1 - Telecommunications networks",
+               "description":"..."
+            },
+            {
+               "value":"3.4.3",
+               "expanded":"GIR 3.4.2 - Internet service providers",
+               "description":"..."
+            },
+            {
+               "value":"3.4.3",
+               "expanded":"GIR 3.4.3 - Broadcasting systems",
+               "description":"..."
+            },
+            {
+               "value":"3.5",
+               "expanded":"GIR 3.5 - Financial Infrastructure",
+               "description":"..."
+            },
+            {
+               "value":"3.5.1",
+               "expanded":"GIR 3.5.1 - Banks",
+               "description":"..."
+            },
+            {
+               "value":"3.5.2",
+               "expanded":"GIR 3.5.2 - Stock Markets",
+               "description":"..."
+            },
+            {
+               "value":"3.5.3",
+               "expanded":"GIR 3.5.3 - Currency",
+               "description":"..."
+            }
+         ]
+      },
+      {
+         "predicate":"Critical Supply Chains",
+         "entry":[
+            {
+               "value":"5.1",
+               "expanded":"GIR 5.1 Food Supply Chain",
+               "description":"..."
+            },
+            {
+               "value":"5.1.1",
+               "expanded":"GIR 5.1.1 Agricultural production",
+               "description":"..."
+            },
+            {
+               "value":"5.1.2",
+               "expanded":"GIR 5.1.2 Processing facilities",
+               "description":"..."
+            },
+            {
+               "value":"5.1.3",
+               "expanded":"GIR 5.1.3 Transportation",
+               "description":"..."
+            },
+            {
+               "value":"5.1.4",
+               "expanded":"GIR 5.1.4 Distribution",
+               "description":"..."
+            },
+            {
+               "value":"5.1.5",
+               "expanded":"GIR 5.1.5 Retail",
+               "description":"..."
+            },
+            {
+               "value":"5.2",
+               "expanded":"GIR 5.2 Water Supply Chain",
+               "description":"..."
+            },
+            {
+               "value":"5.2.1",
+               "expanded":"GIR 5.2.1 Water sources",
+               "description":"..."
+            },
+            {
+               "value":"5.2.2",
+               "expanded":"GIR 5.2.2 Treatment plants",
+               "description":"..."
+            },
+            {
+               "value":"5.2.3",
+               "expanded":"GIR 5.2.3 Distribution networks",
+               "description":"..."
+            },
+            {
+               "value":"5.2.4",
+               "expanded":"GIR 5.2.4 Storage",
+               "description":"..."
+            },
+            {
+               "value":"5.3",
+               "expanded":"GIR 5.3 Energy Supply Chain",
+               "description":"..."
+            },
+            {
+               "value":"5.3.1",
+               "expanded":"GIR 5.3.1 Power generation",
+               "description":"..."
+            },
+            {
+               "value":"5.3.2",
+               "expanded":"GIR 5.3.2 - Transmission",
+               "description":"..."
+            },
+            {
+               "value":"5.3.3",
+               "expanded":"GIR 5.3.3 Distribution systems",
+               "description":"..."
+            },
+            {
+               "value":"5.4",
+               "expanded":"GIR 5.4 Medical Supply Chain",
+               "description":"..."
+            },
+            {
+               "value":"5.4.1",
+               "expanded":"GIR 5.4.1 Pharmaceutical manufacturing",
+               "description":"..."
+            },
+            {
+               "value":"5.4.2",
+               "expanded":"GIR 5.4.2 Distribution",
+               "description":"..."
+            },
+            {
+               "value":"5.4.3",
+               "expanded":"GIR 5.4.3 Healthcare facilities",
+               "description":"..."
+            },
+            {
+               "value":"5.4.4",
+               "expanded":"GIR 5.4.4 Medical equipment production",
+               "description":"..."
+            },
+            {
+               "value":"5.5",
+               "expanded":"GIR 5.5 Clothing and Shelter Supply Chain",
+               "description":"..."
+            },
+            {
+               "value":"5.5.1",
+               "expanded":"GIR 5.5.1 Textile production",
+               "description":"..."
+            },
+            {
+               "value":"5.5.2",
+               "expanded":"GIR 5.5.2 Clothing manufacturing",
+               "description":"..."
+            },
+            {
+               "value":"5.5.3",
+               "expanded":"GIR 5.5.3 Construction materials",
+               "description":"..."
+            },
+            {
+               "value":"5.5.4",
+               "expanded":"GIR 5.5.4 Housing development",
+               "description":"..."
+            }
+         ]
+      },
+      {
+         "predicate":"Impacted Industry or Region",
+         "entry":[
+            {
+               "value":"6.1.1",
+               "expanded":"GIR 6.1.1 - Consumer and industrial products sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.1",
+               "expanded":"GIR 6.1.1.1 - Consumer business industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.2",
+               "expanded":"GIR 6.1.1.2 - Transportation industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.2.1",
+               "expanded":"GIR 6.1.1.2.1 - Aviation industry",
+               "description":""
+            },
+            {
+               "value":"6.1.1.3",
+               "expanded":"GIR 6.1.1.3 - Consumer products industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.4",
+               "expanded":"GIR 6.1.1.4 - Sports and leisure industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.5",
+               "expanded":"GIR 6.1.1.5 - Hospitality industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.6",
+               "expanded":"GIR 6.1.1.6 - Restaurants and food service industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.7",
+               "expanded":"GIR 6.1.1.7 - Retail, wholesale and distribution industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.1.7.1",
+               "expanded":"GIR 6.1.1.7.1 - Fashion industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2",
+               "expanded":"6.1.2 - Energy, resources and agriculture sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.1",
+               "expanded":"GIR 6.1.2.1 - Oil, gas and consumable fuels industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.2",
+               "expanded":"GIR 6.1.2.2 - Power and utilities industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.3",
+               "expanded":"GIR 6.1.2.3 - Shipping and ports industry",
+               "description":""
+            },
+            {
+               "value":"6.1.2.4",
+               "expanded":"GIR 6.1.2.4 - Water industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.5",
+               "expanded":"GIR 6.1.2.5 - Agriculture and food and beverage production industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.6",
+               "expanded":"GIR 6.1.2.6 - Mining industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.2.7",
+               "expanded":"GIR 6.1.2.7 - Renewable energy industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.3",
+               "expanded":"GIR 6.1.3 - Financial services sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.3.1",
+               "expanded":"GIR 6.1.3.1 - Banking and securities industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.3.2",
+               "expanded":"GIR 6.1.3.2 - Insurance industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.3.3",
+               "expanded":"GIR 6.1.3.3 - Investment management industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.3.4",
+               "expanded":"GIR 6.1.3.4 - Payment processing industry",
+               "description":""
+            },
+            {
+               "value":"6.1.4",
+               "expanded":"GIR 6.1.4 - Life sciences and health care sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.4",
+               "expanded":"GIR 6.1.4.1 - Health care providers and services industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.4.2",
+               "expanded":"GIR 6.1.4.2 - Health care equipment and technology industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.4.3",
+               "expanded":"6.1.4.3 - Pharmaceuticals, biotechnology and life sciences industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.5",
+               "expanded":"GIR 6.1.5 - Manufacturing sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.5.1",
+               "expanded":"GIR 6.1.5.1 - Aerospace and defense industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.5.2",
+               "expanded":"GIR 6.1.5.2 - Automotive industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.5.3",
+               "expanded":"GIR 6.1.5.3 - Industrial products and services industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.5.4",
+               "expanded":"GIR 6.1.5.4 - Chemicals and specialty materials industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6",
+               "expanded":"GIR 6.1.6 - Public sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6.1",
+               "expanded":"GIR 6.1.6.1 - International government",
+               "description":""
+            },
+            {
+               "value":"6.1.6.2",
+               "expanded":"GIR 6.1.6.2 - National government",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6.3",
+               "expanded":"GIR 6.1.6.3 - Regional government",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6.4",
+               "expanded":"GIR 6.1.6.4 - Education",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6.5",
+               "expanded":"GIR 6.1.6.5 - Public safety",
+               "description":"..."
+            },
+            {
+               "value":"6.1.6.6",
+               "expanded":"GIR 6.1.6.6 - Military and defense",
+               "description":"..."
+            },
+            {
+               "value":"6.1.7",
+               "expanded":"GIR 6.1.7 - Real Estate sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.7.1",
+               "expanded":"GIR 6.1.7.1 - Engineering and construction industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.7.2",
+               "expanded":"GIR 6.1.7.2 - Real estate fund and investor industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.7.3",
+               "expanded":"GIR 6.1.7.3 - Real estate investment trust (REIT) and property company industry",
+               "description":""
+            },
+            {
+               "value":"6.1.7.4",
+               "expanded":"GIR 6.1.7.4 - Real estate management, brokerage and service provider industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.7.5",
+               "expanded":"GIR 6.1.7.5 - Tenants and cccupiers industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8",
+               "expanded":"GIR 6.1.8 - Technology, media and telecommunications sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.1",
+               "expanded":"GIR 6.1.8.1 - Technology industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.2",
+               "expanded":"GIR 6.1.8.2 - Media and entertainment industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.2.1",
+               "expanded":"GIR 6.1.8.2.1 - Gaming industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.3",
+               "expanded":"GIR 6.1.8.3 - Telecommunications industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.4",
+               "expanded":"GIR 6.1.8.4 - Internet of Things (IoT) industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.8.5",
+               "expanded":"GIR 6.1.8.5 - Cloud services industry",
+               "description":""
+            },
+            {
+               "value":"6.1.9",
+               "expanded":"GIR 6.1.9 - Professional services and consulting sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.1",
+               "expanded":"GIR 6.1.9.1 - Information technology (IT) consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.2",
+               "expanded":"GIR 6.1.9.2 - Management and operations consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.3",
+               "expanded":"GIR 6.1.9.3 - Financial and investment consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.4",
+               "expanded":"GIR 6.1.9.4 - Human resources consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.5",
+               "expanded":"GIR 6.1.9.5 - Marketing and sales consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.6",
+               "expanded":"GIR 6.1.9.6 - Law services and consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.7",
+               "expanded":"GIR 6.1.9.7 - Political consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.9.8",
+               "expanded":"GIR 6.1.9.8 - Physical security consulting industry",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10",
+               "expanded":"GIR 6.1.10 - Nonprofit sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.1",
+               "expanded":"GIR 6.1.10.1 - Charitable organizations",
+               "description":""
+            },
+            {
+               "value":"6.1.10.2",
+               "expanded":"GIR 6.1.10.2 - Civic leagues and social welfare organizations",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.3",
+               "expanded":"GIR 6.1.10.3 - Nongovernmental organizations (NGOs)",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.3.1",
+               "expanded":"GIR 6.1.10.3.1 - Operational NGOs",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.3.2",
+               "expanded":"GIR 6.1.10.3.2 - Advocacy NGOs",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.4",
+               "expanded":"GIR 6.1.10.4 - Private charitable foundations",
+               "description":"..."
+            },
+            {
+               "value":"6.1.10.5",
+               "expanded":"GIR 6.1.10.5 - Social advocacy groups",
+               "description":"..."
+            },
+            {
+               "value":"6.1.11",
+               "expanded":"GIR 6.1.11 - Research and development sector",
+               "description":"..."
+            },
+            {
+               "value":"6.1.11.1",
+               "expanded":"GIR 6.1.11.1 - Scientific research and development organizations",
+               "description":"..."
+            },
+            {
+               "value":"6.1.11.2",
+               "expanded":"GIR 6.1.11.2 - Multipurpose research institutes",
+               "description":"..."
+            },
+            {
+               "value":"6.1.12",
+               "expanded":"GIR 6.1.12 - Industrial automation sector",
+               "description":""
+            },
+            {
+               "value":"6.1.12.1",
+               "expanded":"GIR 6.1.12.1 - Supervisory control and data acquisition (SCADA) systems",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1",
+               "expanded":"GIR 6.2.1 Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1.1",
+               "expanded":"GIR 6.2.1.1 Northern Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1.2",
+               "expanded":"GIR 6.2.1.2 Western Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1.3",
+               "expanded":"GIR 6.2.1.3 Middle Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1.4",
+               "expanded":"GIR 6.2.1.4 Eastern Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.1.5",
+               "expanded":"GIR 6.2.1.5 Southern Africa",
+               "description":"..."
+            },
+            {
+               "value":"6.2.2",
+               "expanded":"GIR 6.2.2 Antarctica",
+               "description":"..."
+            },
+            {
+               "value":"6.2.3",
+               "expanded":"GIR 6.2.3 Asia",
+               "description":""
+            },
+            {
+               "value":"6.2.3.1",
+               "expanded":"GIR 6.2.3.1 Central Asia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.3.2",
+               "expanded":"GIR 6.2.3.2 East Asia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.3.3",
+               "expanded":"GIR 6.2.3.3 South Asia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.3.4",
+               "expanded":"GIR 6.2.3.4 Southeast Asia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.3.5",
+               "expanded":"GIR 6.2.3.5 Western Asia (Middle East)",
+               "description":"..."
+            },
+            {
+               "value":"6.2.4",
+               "expanded":"GIR 6.2.4 Europe",
+               "description":"..."
+            },
+            {
+               "value":"6.2.4.1",
+               "expanded":"GIR 6.2.4.1 Eastern Europe",
+               "description":"..."
+            },
+            {
+               "value":"6.2.4.2",
+               "expanded":"GIR 6.2.4.2 Northern Europe",
+               "description":"..."
+            },
+            {
+               "value":"6.2.4.3",
+               "expanded":"GIR 6.2.4.3 Southern Europe",
+               "description":"..."
+            },
+            {
+               "value":"6.2.4.3",
+               "expanded":"GIR 6.2.4.4 Western Europe",
+               "description":"..."
+            },
+            {
+               "value":"6.2.5",
+               "expanded":"GIR 6.2.5 North America",
+               "description":""
+            },
+            {
+               "value":"6.2.5.1",
+               "expanded":"GIR 6.2.5.1 Canada",
+               "description":"..."
+            },
+            {
+               "value":"6.2.5.2",
+               "expanded":"GIR 6.2.5.2 United States",
+               "description":"..."
+            },
+            {
+               "value":"6.2.5.3",
+               "expanded":"GIR 6.2.5.3 Mexico",
+               "description":"..."
+            },
+            {
+               "value":"6.2.5.4",
+               "expanded":"GIR 6.2.5.4 Central America",
+               "description":"..."
+            },
+            {
+               "value":"6.2.5.5",
+               "expanded":"GIR 6.2.5.5 Caribbean",
+               "description":"..."
+            },
+            {
+               "value":"6.2.6",
+               "expanded":"GIR 6.2.6 Oceania",
+               "description":"..."
+            },
+            {
+               "value":"6.2.6.1",
+               "expanded":"GIR 6.2.6.1 Australia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.6.2",
+               "expanded":"GIR 6.2.6.2 New Zealand",
+               "description":"..."
+            },
+            {
+               "value":"6.2.6.3",
+               "expanded":"GIR 6.2.6.3 Melanesia",
+               "description":""
+            },
+            {
+               "value":"6.2.6.4",
+               "expanded":"GIR 6.2.6.4 Micronesia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.6.5",
+               "expanded":"GIR 6.2.6.5 Polynesia",
+               "description":"..."
+            },
+            {
+               "value":"6.2.7.1",
+               "expanded":"GIR 6.2.7.1 - Northern South America",
+               "description":"..."
+            },
+            {
+               "value":"6.2.7.2",
+               "expanded":"GIR 6.2.7.2 - Central South America",
+               "description":"..."
+            },
+            {
+               "value":"6.2.7.3",
+               "expanded":"GIR 6.2.7.3 - Southern South America",
+               "description":"..."
+            }
+         ]
+      }
+   ]
+}
